@@ -11,6 +11,10 @@
 		842975682647AB2000D58086 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842975672647AB2000D58086 /* ContentView.swift */; };
 		8429756A2647AB2100D58086 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842975692647AB2100D58086 /* Assets.xcassets */; };
 		8429756D2647AB2100D58086 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8429756C2647AB2100D58086 /* Preview Assets.xcassets */; };
+		842975762647AB3C00D58086 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842975752647AB3C00D58086 /* RegistrationView.swift */; };
+		842975792647AB4400D58086 /* CountryCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842975782647AB4400D58086 /* CountryCodes.swift */; };
+		8429757D2647AB8100D58086 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8429757B2647AB8100D58086 /* CustomTextField.swift */; };
+		8429757E2647AB8100D58086 /* CustomSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8429757C2647AB8100D58086 /* CustomSecureField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		842975692647AB2100D58086 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8429756C2647AB2100D58086 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8429756E2647AB2100D58086 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		842975752647AB3C00D58086 /* RegistrationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		842975782647AB4400D58086 /* CountryCodes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryCodes.swift; sourceTree = "<group>"; };
+		8429757B2647AB8100D58086 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		8429757C2647AB8100D58086 /* CustomSecureField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSecureField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +60,11 @@
 		842975642647AB2000D58086 /* PhoneTextFieldExample */ = {
 			isa = PBXGroup;
 			children = (
+				8429757C2647AB8100D58086 /* CustomSecureField.swift */,
+				8429757B2647AB8100D58086 /* CustomTextField.swift */,
+				842975782647AB4400D58086 /* CountryCodes.swift */,
 				842975652647AB2000D58086 /* PhoneTextFieldExampleApp.swift */,
+				842975752647AB3C00D58086 /* RegistrationView.swift */,
 				842975672647AB2000D58086 /* ContentView.swift */,
 				842975692647AB2100D58086 /* Assets.xcassets */,
 				8429756E2647AB2100D58086 /* Info.plist */,
@@ -138,8 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				842975762647AB3C00D58086 /* RegistrationView.swift in Sources */,
 				842975682647AB2000D58086 /* ContentView.swift in Sources */,
 				842975662647AB2000D58086 /* PhoneTextFieldExampleApp.swift in Sources */,
+				842975792647AB4400D58086 /* CountryCodes.swift in Sources */,
+				8429757E2647AB8100D58086 /* CustomSecureField.swift in Sources */,
+				8429757D2647AB8100D58086 /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
